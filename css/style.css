@@ -132,3 +132,31 @@ section.about .social a img{
     height: 100%;
     padding: 0.5rem;
 }
+
+#project {
+    padding: 90px 5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 2vw;
+    grid-auto-flow: row;
+  }
+  
+  .project-tile {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 9px;
+  }
+  
+  .project-image {
+    box-sizing: border-box;
+    border: solid 1px var(--dark-grey);
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 10px auto;
+    height: auto;
+  }
+  
+  .project-body {
+    padding-top: 5px;
+  }
